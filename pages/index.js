@@ -1,8 +1,17 @@
 export default function Home() {
   return (
-    <div style={{ padding: "2rem", textAlign: "center" }}>
-      <h1>My Application</h1>
-      <p>Welcome to my application!</p>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100vh",
+        fontFamily: "system-ui, sans-serif",
+      }}
+    >
+      <h1>My Next.js App</h1>
+      <p>Successfully deployed to Vercel!</p>
     </div>
   )
 }
