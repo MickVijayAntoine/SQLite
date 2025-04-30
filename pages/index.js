@@ -6,11 +6,12 @@ export default function Home() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        height: "100vh",
+        minHeight: "100vh",
+        padding: "0 2rem",
         fontFamily: "system-ui, sans-serif",
       }}
     >
-      <h1>My Next.js App</h1>
+      <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>Next.js App</h1>
       <p>Successfully deployed to Vercel!</p>
     </div>
   )
